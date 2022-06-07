@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Orbiter is a bootstrap minimal & clean admin template">
+    <meta name="keywords" content="admin, admin panel, admin template, admin dashboard, responsive, bootstrap 4, ui kits, ecommerce, web app, crm, cms, html, sass support, scss">
+    <meta name="author" content="Themesbox">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <title>Orbiter - Bootstrap Minimal & Clean Admin Template</title>
+    <!-- Fevicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <!-- Start css -->
+    <!-- Switchery css -->
+    <link href="assets/plugins/switchery/switchery.min.css" rel="stylesheet">
+    <!-- Animate css -->
+    <link href="assets/plugins/animate/animate.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/icons.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/flag-icon.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <!-- Start css -->
+</head>
+<body class="vertical-layout">
+    <!-- Start Infobar Setting Sidebar -->
+    <div id="infobar-settings-sidebar" class="infobar-settings-sidebar">
+        <div class="infobar-settings-sidebar-head d-flex w-100 justify-content-between">
+            <h4>Settings</h4><a href="javascript:void(0)" id="infobar-settings-close" class="infobar-settings-close"><img src="assets/images/svg-icon/close.svg" class="img-fluid menu-hamburger-close" alt="close"></a>
+        </div>
+        <div class="infobar-settings-sidebar-body">
+            <div class="custom-mode-setting">
+                <div class="row align-items-center pb-3">
+                    <div class="col-8"><h6 class="mb-0">Payment Reminders</h6></div>
+                    <div class="col-4 text-right"><input type="checkbox" class="js-switch-setting-first" checked /></div>
+                </div>
+                <div class="row align-items-center pb-3">
+                    <div class="col-8"><h6 class="mb-0">Stock Updates</h6></div>
+                    <div class="col-4 text-right"><input type="checkbox" class="js-switch-setting-second" checked /></div>
+                </div>
+                <div class="row align-items-center pb-3">
+                    <div class="col-8"><h6 class="mb-0">Open for New Products</h6></div>
+                    <div class="col-4 text-right"><input type="checkbox" class="js-switch-setting-third" /></div>
+                </div>
+                <div class="row align-items-center pb-3">
+                    <div class="col-8"><h6 class="mb-0">Enable SMS</h6></div>
+                    <div class="col-4 text-right"><input type="checkbox" class="js-switch-setting-fourth" checked /></div>
+                </div>
+                <div class="row align-items-center pb-3">
+                    <div class="col-8"><h6 class="mb-0">Newsletter Subscription</h6></div>
+                    <div class="col-4 text-right"><input type="checkbox" class="js-switch-setting-fifth" checked /></div>
+                </div>
+                <div class="row align-items-center pb-3">
+                    <div class="col-8"><h6 class="mb-0">Show Map</h6></div>
+                    <div class="col-4 text-right"><input type="checkbox" class="js-switch-setting-sixth" /></div>
+                </div>
+                <div class="row align-items-center pb-3">
+                    <div class="col-8"><h6 class="mb-0">e-Statement</h6></div>
+                    <div class="col-4 text-right"><input type="checkbox" class="js-switch-setting-seventh" checked /></div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-8"><h6 class="mb-0">Monthly Report</h6></div>
+                    <div class="col-4 text-right"><input type="checkbox" class="js-switch-setting-eightth" checked /></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="infobar-settings-sidebar-overlay"></div>
+    <!-- End Infobar Setting Sidebar -->
+    <!-- Start Containerbar -->
+    <div id="containerbar" class="container-fluid">
+        <!-- Start Leftbar -->
+        <div id="infobar-settings-sidebar" class="infobar-settings-sidebar">
+            <div class="infobar-settings-sidebar-head d-flex w-100 justify-content-between">
+                <h4>Settings</h4><a href="javascript:void(0)" id="infobar-settings-close" class="infobar-settings-close"><img src="assets/images/svg-icon/close.svg" class="img-fluid menu-hamburger-close" alt="close"></a>
+            </div>
+            <div class="infobar-settings-sidebar-body">
+                <div class="custom-mode-setting">
+                    <div class="row align-items-center pb-3">
+                        <div class="col-8"><h6 class="mb-0">Payment Reminders</h6></div>
+                        <div class="col-4 text-right"><input type="checkbox" class="js-switch-setting-first" checked /></div>
+                    </div>
+                    <div class="row align-items-center pb-3">
+                        <div class="col-8"><h6 class="mb-0">Stock Updates</h6></div>
+                        <div class="col-4 text-right"><input type="checkbox" class="js-switch-setting-second" checked /></div>
+                    </div>
+                    <div class="row align-items-center pb-3">
+                        <div class="col-8"><h6 class="mb-0">Open for New Products</h6></div>
+                        <div class="col-4 text-right"><input type="checkbox" class="js-switch-setting-third" /></div>
+                    </div>
+                    <div class="row align-items-center pb-3">
+                        <div class="col-8"><h6 class="mb-0">Enable SMS</h6></div>
+                        <div class="col-4 text-right"><input type="checkbox" class="js-switch-setting-fourth" checked /></div>
+                    </div>
+                    <div class="row align-items-center pb-3">
+                        <div class="col-8"><h6 class="mb-0">Newsletter Subscription</h6></div>
+                        <div class="col-4 text-right"><input type="checkbox" class="js-switch-setting-fifth" checked /></div>
+                    </div>
+                    <div class="row align-items-center pb-3">
+                        <div class="col-8"><h6 class="mb-0">Show Map</h6></div>
+                        <div class="col-4 text-right"><input type="checkbox" class="js-switch-setting-sixth" /></div>
+                    </div>
+                    <div class="row align-items-center pb-3">
+                        <div class="col-8"><h6 class="mb-0">e-Statement</h6></div>
+                        <div class="col-4 text-right"><input type="checkbox" class="js-switch-setting-seventh" checked /></div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-8"><h6 class="mb-0">Monthly Report</h6></div>
+                        <div class="col-4 text-right"><input type="checkbox" class="js-switch-setting-eightth" checked /></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="infobar-settings-sidebar-overlay"></div>
+        <!-- End Infobar Setting Sidebar -->
+        <!-- Start Containerbar -->
+        <div id="containerbar" class="container-fluid">
+            <!-- Start Leftbar -->
+            <div class="leftbar">
+                <!-- Start Sidebar -->
+                <div class="sidebar">
+                    <!-- Start Logobar -->
+                    <div class="logobar">
+                        <a href="index.html" class="logo logo-large"><img src="assets/images/logo.svg" class="img-fluid" alt="logo"></a>
+                        <a href="index.html" class="logo logo-small"><img src="assets/images/small_logo.svg" class="img-fluid" alt="logo"></a>
+                    </div>
+                    <!-- End Logobar -->
+                    <!-- Start Navigationbar -->
+                    <div class="navigationbar">
+                        <ul class="vertical-menu">
+                            <li>
+                                <a href="javaScript:void();">
+                                  <img src="assets/images/svg-icon/dashboard.svg" class="img-fluid" alt="dashboard"><span>Dashboard</span><i class="feather icon-chevron-right pull-right"></i>
+                                </a>
+                                <ul class="vertical-submenu">
+                                  
+                                    <li><a href="dashboard-school.html">School</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javaScript:void();">
+                                    <img src="assets/images/svg-icon/basic.svg" class="img-fluid" alt="basic"><span>Basic UI</span><i class="feather icon-chevron-right pull-right"></i>
+                                </a>
+                                <ul class="vertical-submenu">
+                                    <li><a href="basic-ui-kits-alerts.html">Alerts</a></li>
+                                    <li><a href="basic-ui-kits-badges.html">Badges</a></li>
+                                    <li><a href="basic-ui-kits-buttons.html">Buttons</a></li>
+                                    <li><a href="basic-ui-kits-cards.html">Cards</a></li>
+                                    <li><a href="basic-ui-kits-carousel.html">Carousel</a></li>
+    
+                                    <li><a href="basic-ui-kits-images.html">Images</a></li>
+                                    <li><a href="basic-ui-kits-media.html">Media</a></li>
+                                    <li><a href="basic-ui-kits-modals.html">Modals</a></li>
+                                    <li><a href="basic-ui-kits-popovers.html">Popovers</a></li>
+                                    <li><a href="basic-ui-kits-tabs.html">Tabs</a></li>
+                                    <li><a href="basic-ui-kits-toasts.html">Toasts</a></li>     
+                                    <li><a href="basic-ui-kits-tooltips.html">Tooltips</a></li>
+                                    <li><a href="basic-ui-kits-typography.html">Typography</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javaScript:void();">
+                                    <img src="assets/images/svg-icon/advanced.svg" class="img-fluid" alt="advanced"><span>Advanced UI</span><i class="feather icon-chevron-right pull-right"></i>
+                                </a>
+                                <ul class="vertical-submenu">                                
+                                    <li><a href="advanced-ui-kits-image-crop.html">Image Crop</a></li>  
+                                    <li><a href="advanced-ui-kits-jquery-confirm.html">jQuery Confirm</a></li>
+                                    <li><a href="advanced-ui-kits-nestable.html">Nestable</a></li>
+                                    <li><a href="advanced-ui-kits-pnotify.html">Pnotify</a></li>
+                                    <li><a href="advanced-ui-kits-range-slider.html">Range Slider</a></li>
+                                    <li><a href="advanced-ui-kits-ratings.html">Ratings</a></li>
+                                    <li><a href="advanced-ui-kits-session-timeout.html">Session Timeout</a></li>
+                                    <li><a href="advanced-ui-kits-sweet-alerts.html">Sweet Alerts</a></li>
+                                    <li><a href="advanced-ui-kits-switchery.html">Switchery</a></li>
+                                    <li><a href="advanced-ui-kits-toolbar.html">Toolbar</a></li>
+                                    <li><a href="advanced-ui-kits-tour.html">Tour</a></li>
+                                    <li><a href="advanced-ui-kits-treeview.html">Tree View</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javaScript:void();">
+                                  <img src="assets/images/svg-icon/apps.svg" class="img-fluid" alt="apps"><span>Apps</span><i class="feather icon-chevron-right pull-right"></i>
+                                </a>
+                                <ul class="vertical-submenu">
+                                    <li><a href="apps-calender.html">Calender</a></li>
+                                    
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javaScript:void();">
+                                    <img src="assets/images/svg-icon/form_elements.svg" class="img-fluid" alt="form_elements"><span>Forms</span><i class="feather icon-chevron-right pull-right"></i>
+                                </a>
+                                <ul class="vertical-submenu">
+                                    <li><a href="form-inputs.html">Basic Elements</a></li>
+                                    <li><a href="form-colorpickers.html">Color Pickers</a></li>
+                                    <li><a href="form-datepickers.html">Date Pickers</a></li>
+                                    <li><a href="form-wizards.html">Wizards</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javaScript:void();">
+                                    <img src="assets/images/svg-icon/chart.svg" class="img-fluid" alt="chart"><span>Charts</span><i class="feather icon-chevron-right pull-right"></i>
+                                </a>
+                                <ul class="vertical-submenu">
+                                    <li><a href="chart-apex.html">Apex</a></li>
+                                    <li><a href="chart-c3.html">C3</a></li>
+                                    <li><a href="chart-chartistjs.html">Chartist</a></li> 
+                                    <li><a href="chart-chartjs.html">Chartjs</a></li>
+                                    <li><a href="chart-flot.html">Flot</a></li>
+                                    <li><a href="chart-knob.html">Knob</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javaScript:void();">
+                                    <img src="assets/images/svg-icon/icons.svg" class="img-fluid" alt="icons"><span>Icons</span><i class="feather icon-chevron-right pull-right"></i>
+                                </a>
+                                <ul class="vertical-submenu">
+                                    <li><a href="icon-svg.html">SVG</a></li>
+                                    <li><a href="icon-dripicons.html">Dripicons</a></li>
+                                    <li><a href="icon-feather.html">Feather</a></li>
+                                    <li><a href="icon-flag.html">Flag</a></li>  
+                                    <li><a href="icon-font-awesome.html">Font Awesome</a></li>
+                                    <li><a href="icon-ionicons.html">Ion</a></li>
+                                    <li><a href="icon-line-awesome.html">Line Awesome</a></li>
+                                    <li><a href="icon-material-design.html">Material Design</a></li>
+                                    <li><a href="icon-simple-line.html">Simple Line</a></li>
+                                    <li><a href="icon-socicon.html">Socicon</a></li>
+                                    <li><a href="icon-themify.html">Themify</a></li>
+                                    <li><a href="icon-typicons.html">Typicons</a></li> 
+                                </ul>
+                            </li>
+                            
+                            <li>
+                                <a href="javaScript:void();">
+                                    <img src="assets/images/svg-icon/tables.svg" class="img-fluid" alt="tables"><span>Tables</span><i class="feather icon-chevron-right pull-right"></i>
+                                </a>
+                                <ul class="vertical-submenu">
+                                    <li><a href="table-bootstrap.html">Bootstrap</a></li>
+                                    <li><a href="table-datatable.html">Datatable</a></li>
+                                    <li><a href="table-editable.html">Editable</a></li>
+                                    <li><a href="table-footable.html">Foo</a></li>
+                                    <li><a href="table-rwdtable.html">RWD</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javaScript:void();">
+                                    <img src="assets/images/svg-icon/maps.svg" class="img-fluid" alt="maps"><span>Maps</span><i class="feather icon-chevron-right pull-right"></i>
+                                </a>
+                                <ul class="vertical-submenu">
+                                    <li><a href="map-google.html">Google</a></li>
+                                    <li><a href="map-vector.html">Vector</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="widgets.html">
+                                    <img src="assets/images/svg-icon/widgets.svg" class="img-fluid" alt="widgets"><span>Widgets</span><span class="badge badge-success pull-right">New</span>
+                                </a>
+                            </li>                        
+                            <li>
+                                <a href="javaScript:void();">
+                                  <img src="assets/images/svg-icon/pages.svg" class="img-fluid" alt="pages"><span>Pages</span><i class="feather icon-chevron-right pull-right"></i>
+                                </a>
+                                <ul class="vertical-submenu">
+                                    <li>
+                                        <a href="javaScript:void();">Basic<i class="feather icon-chevron-right pull-right"></i></a>
+                                        <ul class="vertical-submenu">
+                                            <li><a href="page-starter.html">Starter</a></li>
+                                            <li><a href="page-blog.html">Blog</a></li>
+                                            <li><a href="page-faq.html">FAQ</a></li>
+                                            <li><a href="page-gallery.html">Gallery</a></li>
+                                            <li><a href="page-invoice.html">Invoice</a></li>
+                                            <li><a href="page-pricing.html">Pricing</a></li>
+                                            <li><a href="page-timeline.html">Timeline</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="javaScript:void();">Authentications<i class="feather icon-chevron-right pull-right"></i></a>
+                                        <ul class="vertical-submenu">
+                                            <li><a href="user-login.html">Login</a></li>
+                                            <li><a href="user-register.html">Register</a></li>
+                                            <li><a href="user-forgotpsw.html">Forgot Password</a></li>
+                                            <li><a href="user-lock-screen.html">Lock Screen</a></li>
+                                            <li><a href="error-comingsoon.html">Coming Soon</a></li>  
+                                            <li><a href="error-maintenance.html">Maintenance</a></li>
+                                            <li><a href="error-404.html">Error 404</a></li>
+                                            <li><a href="error-500.html">Error 500</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javaScript:void();">
+                                    <img src="assets/images/svg-icon/ecommerce.svg" class="img-fluid" alt="ecommerce"><span>eCommerce</span><i class="feather icon-chevron-right pull-right"></i>
+                                </a>
+                                <ul class="vertical-submenu">
+                                    <li><a href="ecommerce-product-list.html">Product List</a></li>
+                                    <li><a href="ecommerce-product-detail.html">Product Detail</a></li>
+                                    <li><a href="ecommerce-order-list.html">Order List</a></li>
+                                    <li><a href="ecommerce-order-detail.html">Order Detail</a></li> 
+                                    <li><a href="ecommerce-shop.html">Shop</a></li>
+                                    <li><a href="ecommerce-single-product.html">Single Product</a></li>
+                                    <li><a href="ecommerce-cart.html">Cart</a></li>
+                                    <li><a href="ecommerce-checkout.html">Checkout</a></li>
+                                    <li><a href="ecommerce-thankyou.html">Thank You</a></li>
+                                    <li><a href="ecommerce-myaccount.html">My Account</a></li>
+                                </ul>
+                            </li>                                           
+                        </ul>
+                    </div>
+                    <!-- End Navigationbar -->
+                </div>
+                <!-- End Sidebar -->
+            </div>
+        <!-- End Leftbar -->
+        <!-- Start Rightbar -->
+        <div class="rightbar">
+            <!-- Start Topbar Mobile -->
+            <div class="topbar-mobile">
+                <div class="row align-items-center">
+                    <div class="col-md-12">
+                        <div class="mobile-logobar">
+                            <a href="index.html" class="mobile-logo"><img src="assets/images/logo.svg" class="img-fluid" alt="logo"></a>
+                        </div>
+                        <div class="mobile-togglebar">
+                            <ul class="list-inline mb-0">
+                                <li class="list-inline-item">
+                                    <div class="topbar-toggle-icon">
+                                        <a class="topbar-toggle-hamburger" href="javascript:void();">
+                                            <img src="assets/images/svg-icon/horizontal.svg" class="img-fluid menu-hamburger-horizontal" alt="horizontal">
+                                            <img src="assets/images/svg-icon/verticle.svg" class="img-fluid menu-hamburger-vertical" alt="verticle">
+                                         </a>
+                                     </div>
+                                </li>
+                                <li class="list-inline-item">
+                                    <div class="menubar">
+                                        <a class="menu-hamburger" href="javascript:void();">
+                                            <img src="assets/images/svg-icon/collapse.svg" class="img-fluid menu-hamburger-collapse" alt="collapse">
+                                            <img src="assets/images/svg-icon/close.svg" class="img-fluid menu-hamburger-close" alt="close">
+                                         </a>
+                                     </div>
+                                </li>                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Start Topbar -->
+            <div class="topbar">
+                <!-- Start row -->
+                <div class="row align-items-center">
+                    <!-- Start col -->
+                    <div class="col-md-12 align-self-center">
+                        <div class="togglebar">
+                            <ul class="list-inline mb-0">
+                                <li class="list-inline-item">
+                                    <div class="menubar">
+                                        <a class="menu-hamburger" href="javascript:void();">
+                                           <img src="assets/images/svg-icon/collapse.svg" class="img-fluid menu-hamburger-collapse" alt="collapse">
+                                           <img src="assets/images/svg-icon/close.svg" class="img-fluid menu-hamburger-close" alt="close">
+                                         </a>
+                                     </div>
+                                </li>
+                                <li class="list-inline-item">
+                                    <div class="searchbar">
+                                        <form>
+                                            <div class="input-group">
+                                              <input type="search" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="button-addon2">
+                                              <div class="input-group-append">
+                                                <button class="btn" type="submit" id="button-addon2"><img src="assets/images/svg-icon/search.svg" class="img-fluid" alt="search"></button>
+                                              </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="infobar">
+                            <ul class="list-inline mb-0">
+                                <li class="list-inline-item">
+                                    <div class="settingbar">
+                                        <a href="javascript:void(0)" id="infobar-settings-open" class="infobar-icon">
+                                            <img src="assets/images/svg-icon/settings.svg" class="img-fluid" alt="settings">
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="list-inline-item">
+                                    <div class="notifybar">
+                                        <div class="dropdown">
+                                            <a class="dropdown-toggle infobar-icon" href="#" role="button" id="notoficationlink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/images/svg-icon/notifications.svg" class="img-fluid" alt="notifications">
+                                            <span class="live-icon"></span></a>
+                                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="notoficationlink">
+                                                <div class="notification-dropdown-title">
+                                                    <h4>Notifications</h4>                            
+                                                </div>
+                                                <ul class="list-unstyled">                                                    
+                                                    <li class="media dropdown-item">
+                                                        <span class="action-icon badge badge-primary-inverse"><i class="feather icon-dollar-sign"></i></span>
+                                                        <div class="media-body">
+                                                            <h5 class="action-title">$135 received</h5>
+                                                            <p><span class="timing">Today, 10:45 AM</span></p>                            
+                                                        </div>
+                                                    </li>
+                                                    <li class="media dropdown-item">
+                                                        <span class="action-icon badge badge-success-inverse"><i class="feather icon-file"></i></span>
+                                                        <div class="media-body">
+                                                            <h5 class="action-title">Project X prototype approved</h5>
+                                                            <p><span class="timing">Yesterday, 01:40 PM</span></p>                            
+                                                        </div>
+                                                    </li>
+                                                    <li class="media dropdown-item">
+                                                        <span class="action-icon badge badge-danger-inverse"><i class="feather icon-eye"></i></span>
+                                                        <div class="media-body">
+                                                            <h5 class="action-title">John requested to view wireframe</h5>
+                                                            <p><span class="timing">3 Sep 2019, 05:22 PM</span></p>                            
+                                                        </div>
+                                                    </li>
+                                                    <li class="media dropdown-item">
+                                                        <span class="action-icon badge badge-warning-inverse"><i class="feather icon-package"></i></span>
+                                                        <div class="media-body">
+                                                            <h5 class="action-title">Sports shoes are out of stock</h5>
+                                                            <p><span class="timing">15 Sep 2019, 02:55 PM</span></p>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>                                
+                                <li class="list-inline-item">
+                                    <div class="languagebar">
+                                        <div class="dropdown">
+                                            <a class="dropdown-toggle" href="#" role="button" id="languagelink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="flag flag-icon-us flag-icon-squared"></i></a>
+                                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="languagelink">
+                                                <a class="dropdown-item" href="#"><i class="flag flag-icon-us flag-icon-squared"></i>English</a>
+                                                <a class="dropdown-item" href="#"><i class="flag flag-icon-de flag-icon-squared"></i>German</a>
+                                                <a class="dropdown-item" href="#"><i class="flag flag-icon-bl flag-icon-squared"></i>France</a>
+                                                <a class="dropdown-item" href="#"><i class="flag flag-icon-ru flag-icon-squared"></i>Russian</a>                                                
+                                            </div>
+                                        </div>
+                                    </div>                                   
+                                </li>
+                                <li class="list-inline-item">
+                                    <div class="profilebar">
+                                        <div class="dropdown">
+                                          <a class="dropdown-toggle" href="#" role="button" id="profilelink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/images/users/profile.svg" class="img-fluid" alt="profile"><span class="feather icon-chevron-down live-icon"></span></a>
+                                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="profilelink">
+                                                <div class="dropdown-item">
+                                                    <div class="profilename">
+                                                      <h5>John Doe</h5>
+                                                    </div>
+                                                </div>
+                                                <div class="userbox">
+                                                    <ul class="list-unstyled mb-0">
+                                                        <li class="media dropdown-item">
+                                                            <a href="#" class="profile-icon"><img src="assets/images/svg-icon/user.svg" class="img-fluid" alt="user">My Profile</a>
+                                                        </li>
+                                                        <li class="media dropdown-item">
+                                                            <a href="#" class="profile-icon"><img src="assets/images/svg-icon/email.svg" class="img-fluid" alt="email">Email</a>
+                                                        </li>                                                        
+                                                        <li class="media dropdown-item">
+                                                            <a href="#" class="profile-icon"><img src="assets/images/svg-icon/logout.svg" class="img-fluid" alt="logout">Logout</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>                                   
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End col -->
+                </div> 
+                <!-- End row -->
+            </div>
+            <!-- End Topbar -->
+            <!-- Start Breadcrumbbar -->                    
+            <div class="breadcrumbbar">
+                <div class="row align-items-center">
+                    <div class="col-md-8 col-lg-8">
+                        <h4 class="page-title">Modals</h4>
+                        <div class="breadcrumb-list">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item"><a href="#">Basic UI</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Modals</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4">
+                        <div class="widgetbar">
+                            <button class="btn btn-primary-rgba"><i class="feather icon-plus mr-2"></i>Actions</button>
+                        </div>                        
+                    </div>
+                </div>          
+            </div>
+            <!-- End Breadcrumbbar -->
+            <!-- Start Contentbar -->    
+            <div class="contentbar">
+                <!-- Start row -->
+                <div class="row">
+                    <!-- Start col -->
+                    <div class="col-lg-12">
+                        <div class="card m-b-30">
+                            <div class="card-header">
+                                <h5 class="card-title">Modal components</h5>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="card-subtitle">Below is a <em>static</em> modal example (meaning its <code class="highlighter-rouge">position</code> and <code class="highlighter-rouge">display</code> have been overridden). Included are the modal header, modal body (required for <code class="highlighter-rouge">padding</code>), and modal footer (optional). We ask that you include modal headers with dismiss actions whenever possible, or provide another explicit dismiss action.</h6>                      
+                                <div class="modal-1 example-modal" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title mt-0">Modal title</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>Modal body text goes here.</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Save changes</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End col -->
+                    <!-- Start col -->
+                    <div class="col-lg-6">
+                        <div class="card m-b-30">
+                            <div class="card-header">
+                                <h5 class="card-title">Optional Sizes</h5>
+                            </div>
+                            <div class="card-body">                                
+                                <h6 class="card-subtitle">Modals have two optional sizes, available via modifier classes to be placed on a <code class="highlighter-rouge">.modal-dialog</code>. These sizes kick in at certain breakpoints to avoid horizontal scrollbars on narrower viewports.</h6>
+                                <!-- Large modal -->
+                                <button type="button" class="btn btn-primary mt-1" data-toggle="modal" data-target=".bd-example-modal-lg">Large modal</button>
+                                <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleLargeModalLabel">Modal title</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p class="text-muted">Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Save changes</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Small modal -->
+                                <button type="button" class="btn btn-primary mt-1" data-toggle="modal" data-target=".bd-example-modal-sm">Small modal</button>
+                                <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-hidden="true">
+                                    <div class="modal-dialog modal-sm">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleSmallModalLabel">Modal title</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p class="text-muted">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Save changes</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End col -->
+                    <!-- Start col -->
+                    <div class="col-lg-6">
+                        <div class="card m-b-30">
+                            <div class="card-header">
+                                <h5 class="card-title">Standard Modal</h5>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="card-subtitle">Toggle a working modal demo by clicking the button below. It will slide down and fade in from the top of the page.</h6>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleStandardModal">
+                                  Standard Modal
+                                </button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleStandardModal" tabindex="-1" role="dialog" aria-labelledby="exampleStandardModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleStandardModalLabel">Modal title</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p class="text-muted">Woohoo, you're reading this text in a modal!</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Save changes</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <!-- End col -->
+                    <!-- Start col -->
+                    <div class="col-lg-6">
+                        <div class="card m-b-30">
+                            <div class="card-header">
+                                <h5 class="card-title">Scrolling Long Content Modal</h5>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="card-subtitle">When modals become too long for the user’s viewport or device, they scroll independent of the page itself. Try the demo below to see what we mean.</h6>                               
+                               <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+                                  Scrolling Long Content Modal
+                                </button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                                                <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                                                <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                                                <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                                                <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                                                <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                                                <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                                                <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                                                <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                                                <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                                                <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                                                <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Save changes</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End col -->
+                    <!-- Start col -->
+                    <div class="col-lg-6">
+                        <div class="card m-b-30">
+                            <div class="card-header">
+                                <h5 class="card-title">Vertically Centered Modal</h5>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="card-subtitle">Add <code class="highlighter-rouge">.modal-dialog-centered</code> to <code class="highlighter-rouge">.modal-dialog</code> to vertically center the modal.</h6>                                
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                                  Vertically Centered Modal
+                                </button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p class="text-muted">Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Save changes</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End col -->
+                    <!-- Start col -->
+                    <div class="col-lg-6">
+                        <div class="card m-b-30">
+                            <div class="card-header">
+                                <h5 class="card-title">Tooltips and Popovers Modal</h5>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="card-subtitle"><a href="/docs/4.1/components/tooltips/">Tooltips</a> and <a href="/docs/4.1/components/popovers/">popovers</a> can be placed within modals as needed. When modals are closed, any tooltips and popovers within are also automatically dismissed.</h6>                                
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalPopovers">
+                                  Tooltips and Popovers Modal
+                                </button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModalPopovers" tabindex="-1" role="dialog" aria-labelledby="exampleModalPopoversTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalPopoversTitle">Modal title</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <h5>Popover in a modal</h5>
+                                                <p>This <a href="#" role="button" class="btn btn-secondary popover-test" title="Popover title" data-content="Popover body content is set in this attribute.">button</a> triggers a popover on click.</p>
+                                                <hr>
+                                                <h5>Tooltips in a modal</h5>
+                                                <p><a href="#" class="tooltip-test" title="Tooltip">This link</a> and <a href="#" class="tooltip-test" title="Tooltip">that link</a> have tooltips on hover.</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Save changes</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End col -->
+                    <!-- Start col -->
+                    <div class="col-lg-6">
+                        <div class="card m-b-30">
+                            <div class="card-header">
+                                <h5 class="card-title">Using the Grid Modal</h5>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="card-subtitle">Utilize the Bootstrap grid system within a modal by nesting <code class="highlighter-rouge">.container-fluid</code> within the <code class="highlighter-rouge">.modal-body</code>. Then, use the normal grid system classes as you would anywhere else.</h6>                                
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#gridSystemModal">
+                                  Using the Grid Modal
+                                </button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="gridSystemModal" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                            <h5 class="modal-title" id="gridSystemModalTitle">Modal title</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                            </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="container-fluid example-row">
+                                                    <div class="row">
+                                                        <div class="col-md-4">.col-md-4</div>
+                                                        <div class="col-md-4 ml-auto">.col-md-4 .ml-auto</div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-3 ml-auto">.col-md-3 .ml-auto</div>
+                                                        <div class="col-md-2 ml-auto">.col-md-2 .ml-auto</div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-6 ml-auto">.col-md-6 .ml-auto</div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-sm-9">
+                                                        Level 1: .col-sm-9
+                                                            <div class="row">
+                                                                <div class="col-8 col-sm-6">
+                                                                Level 2: .col-8 .col-sm-6
+                                                                </div>
+                                                                <div class="col-4 col-sm-6">
+                                                                Level 2: .col-4 .col-sm-6
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Save changes</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End col -->
+                    <!-- Start col -->
+                    <div class="col-lg-6">
+                        <div class="card m-b-30">
+                            <div class="card-header">
+                                <h5 class="card-title">Varying Content Modal</h5>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="card-subtitle">Have a bunch of buttons that all trigger the same modal with slightly different contents? Use <code class="highlighter-rouge">event.relatedTarget</code> and HTML <code class="highlighter-rouge">data-*</code> attributes (possibly via jQuery) to vary the contents of the modal depending on which button was clicked.</h6>
+                                <!-- Button trigger modal -->
+                               <button type="button" class="btn btn-primary mt-1" data-toggle="modal" data-target="#varying-modal" data-whatever="@mdo">Open modal for @mdo</button>
+                                <button type="button" class="btn btn-primary mt-1" data-toggle="modal" data-target="#varying-modal" data-whatever="@fat">Open modal for @fat</button>
+                                <button type="button" class="btn btn-primary mt-1" data-toggle="modal" data-target="#varying-modal" data-whatever="@getbootstrap">Open modal for @getbootstrap</button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="varying-modal" tabindex="-1" role="dialog" aria-labelledby="varying-modal-label" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="varying-modal-label">New message</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <form>
+                                                    <div class="form-group">
+                                                        <label for="recipient-name" class="col-form-label">Recipient:</label>
+                                                        <input type="text" class="form-control" id="recipient-name">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="message-text" class="col-form-label">Message:</label>
+                                                        <textarea class="form-control" id="message-text"></textarea>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Send message</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End col -->
+                    <!-- Start col -->
+                    <div class="col-lg-6">
+                        <div class="card m-b-30">
+                            <div class="card-header">
+                                <h5 class="card-title">Animated Modals</h5>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="card-subtitle">List of various animation model.</h6>
+                                <div class="row">                                    
+                                    <div class="col-12">
+                                        <button type="button" class="btn btn-primary mt-1 model-animation-btn" data-animation="slideInUp" data-toggle="modal" data-target="#exampleModalLong-1">
+                                            SlideIn (Up)
+                                        </button>
+                                        <button type="button" class="btn btn-primary mt-1 model-animation-btn" data-animation="slideInDown" data-toggle="modal" data-target="#exampleModalLong-1">
+                                            SlideIn (Down)
+                                        </button>
+                                        <button type="button" class="btn btn-primary mt-1 model-animation-btn" data-animation="slideInLeft" data-toggle="modal" data-target="#exampleModalLong-1">
+                                            SlideIn (Left)
+                                        </button>
+                                        <button type="button" class="btn btn-primary mt-1 model-animation-btn" data-animation="slideInRight" data-toggle="modal" data-target="#exampleModalLong-1">
+                                            SlideIn (Right)
+                                        </button>
+                                        <button type="button" class="btn btn-primary mt-1 model-animation-btn" data-animation="zoomIn" data-toggle="modal" data-target="#exampleModalLong-1">
+                                            ZoomIn
+                                        </button>
+                                        <button type="button" class="btn btn-primary mt-1 model-animation-btn" data-animation="zoomInUp" data-toggle="modal" data-target="#exampleModalLong-1">
+                                        ZoomIn (Up)
+                                        </button>                                        
+                                        <button type="button" class="btn btn-primary mt-1 model-animation-btn" data-animation="zoomInLeft" data-toggle="modal" data-target="#exampleModalLong-1">
+                                            ZoomIn (Left)
+                                        </button>
+                                        <button type="button" class="btn btn-primary mt-1 model-animation-btn" data-animation="zoomInRight" data-toggle="modal" data-target="#exampleModalLong-1">
+                                            ZoomIn (Right)
+                                        </button>
+                                        <button type="button" class="btn btn-primary mt-1 model-animation-btn" data-animation="rollIn" data-toggle="modal" data-target="#exampleModalLong-1">
+                                            RollIn
+                                        </button>
+                                    </div>
+                                </div>
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModalLong-1" tabindex="-1" role="dialog" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLongTitle-1">Modal Title</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>This is Photoshop's version of Lorem IpThis is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Ok</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                    <!-- End col -->
+                </div>
+                <!-- End row -->
+            </div>
+            <!-- End Contentbar -->
+            <!-- StartFooterbar -->
+            <div class="footerbar">
+                <footer class="footer">
+                    <p class="mb-0">© 2020 Orbiter - All Rights Reserved.</p>
+                </footer>
+            </div>
+            <!-- End Footerbar -->
+        </div>
+        <!-- End Rightbar -->
+    </div>
+    <!-- End Containerbar -->
+    <!-- Start js -->        
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/modernizr.min.js"></script>
+    <script src="assets/js/detect.js"></script>
+    <script src="assets/js/jquery.slimscroll.js"></script>
+    <script src="assets/js/vertical-menu.js"></script>
+    <!-- Switchery js -->
+    <script src="assets/plugins/switchery/switchery.min.js"></script>
+    <!-- Model js -->
+    <script src="assets/js/custom/custom-model.js"></script>
+    <!-- Core js -->
+    <script src="assets/js/core.js"></script>
+    <!-- End js -->
+</body>
+</html>
