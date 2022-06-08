@@ -58,6 +58,7 @@ class Boglanish(models.Model):
     text = models.CharField(max_length=255)
 
 
+
 class Mobileoperators(models.Model):
     logo = models.ImageField(upload_to="Mobile operators/")
 
@@ -81,11 +82,15 @@ class Percentage(models.Model):
     name_ru = models.CharField(max_length=255)
     name_en = models.CharField(max_length=255)
 
+    def __str__(self):
+        return self.name_uz
+
 class Residents(models.Model):
     image = models.ImageField(upload_to="Residents/")
     name_uz = models.CharField(max_length=255)
     name_ru = models.CharField(max_length=255)
     name_en = models.CharField(max_length=255)
+
 
 
 

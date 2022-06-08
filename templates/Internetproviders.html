@@ -29,7 +29,7 @@
     <div id="infobar-settings-sidebar" class="infobar-settings-sidebar">
         <div class="infobar-settings-sidebar-head d-flex w-100 justify-content-between">
             <h4>Settings</h4>
-            <a href="javascript:void(0)" id="infobar-settings-close" class="infobar-settings-close"><img src="assets/images/svg-icon/close.svg" class="img-fluid menu-hamburger-close" alt="close"></a>
+            <a href="javascript:void(0)" id="infobar-settings-close" class="infobar-settings-close"><img src="{% static 'assets/images/svg-icon/close.svg' %}" class="img-fluid menu-hamburger-close" alt="close"></a>
         </div>
         <div class="infobar-settings-sidebar-body">
             <div class="custom-mode-setting">
@@ -306,7 +306,7 @@
                 <div class="row align-items-center">
                     <div class="col-md-12">
                         <div class="mobile-logobar">
-                            <a href="index.html" class="mobile-logo"><img src="assets/images/logo.svg" class="img-fluid" alt="logo"></a>
+                            <a href="index.html" class="mobile-logo"><img src="{% static 'assets/images/logo.svg' %}" class="img-fluid" alt="logo"></a>
                         </div>
                         <div class="mobile-togglebar">
                             <ul class="list-inline mb-0">
@@ -353,7 +353,7 @@
                                             <div class="input-group">
                                                 <input type="search" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="button-addon2">
                                                 <div class="input-group-append">
-                                                    <button class="btn" type="submit" id="button-addon2"><img src="assets/images/svg-icon/search.svg" class="img-fluid" alt="search"></button>
+                                                    <button class="btn" type="submit" id="button-addon2"><img src="{% static 'assets/images/svg-icon/search.svg' %}" class="img-fluid" alt="search"></button>
                                                 </div>
                                             </div>
                                         </form>
@@ -373,7 +373,7 @@
                                 <li class="list-inline-item">
                                     <div class="notifybar">
                                         <div class="dropdown">
-                                            <a class="dropdown-toggle infobar-icon" href="#" role="button" id="notoficationlink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/images/svg-icon/notifications.svg" class="img-fluid" alt="notifications">
+                                            <a class="dropdown-toggle infobar-icon" href="#" role="button" id="notoficationlink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="{% static 'assets/images/svg-icon/notifications.svg' %}" class="img-fluid" alt="notifications">
                                                 <span class="live-icon"></span></a>
                                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="notoficationlink">
                                                 <div class="notification-dropdown-title">
@@ -429,7 +429,7 @@
                                 <li class="list-inline-item">
                                     <div class="profilebar">
                                         <div class="dropdown">
-                                            <a class="dropdown-toggle" href="#" role="button" id="profilelink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/images/users/profile.svg" class="img-fluid" alt="profile"><span class="feather icon-chevron-down live-icon"></span></a>
+                                            <a class="dropdown-toggle" href="#" role="button" id="profilelink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="{% static 'assets/images/users/profile.svg' %}" class="img-fluid" alt="profile"><span class="feather icon-chevron-down live-icon"></span></a>
                                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="profilelink">
                                                 <div class="dropdown-item">
                                                     <div class="profilename">
@@ -489,15 +489,9 @@
                 <div class="row">
                     <!-- Start col -->
                     {% for i in section %}
-                    <div class="col-md-12 col-lg-6 col-xl-4">
-                        <div class="card m-b-30">
-                            <img class="card-img-top" src="{{ i.image.url }}" alt="blog">
-                            <div class="card-body">
-                                <p class="text-center mb-3"><span class="badge badge-success text-uppercase">{{i.title_uz}}</span></p>
-                                <h5><video width="350" height="300" autoplay>
-                                    <source  src="{{i.video.url}}" type="video/mp4">
-                                </video></h5>
-                            </div>
+                    <div  class="col-md-12 col-lg-6 col-xl-4">
+                        <div style="width:450px height:400px;" class="card m-b-30">
+                            <img style="with:100px; height:200px; " class="card-img-top" src="{{ i.logo.url }}" alt="blog">
                             <div class="card-footer">
                                 <div class="row align-items-center">
                                     <div class="col-md-4">
